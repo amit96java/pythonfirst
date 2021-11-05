@@ -10,6 +10,7 @@ class Students:
             cur.execute(sql_read)
             for i in cur:
                 print(i)
+                print("amit")
             #also we can store data in a variable
             cur.execute(sql_read)
             result=cur.fetchall() #fetchone()
